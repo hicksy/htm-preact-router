@@ -1,0 +1,15 @@
+{
+  "name": "htm-preact-router",
+  "module": "htm-preact-router.bundle.js",
+  "scripts": {
+    "postinstall": "microbundle -f es lib.js -o . --external none --no-sourcemap"
+  },
+  "dependencies": {
+    "htm": "^3.0.1",
+    "preact": "^10.2.1",
+    "preact-router": "^3.2.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0-next.8"
+  }
+}
